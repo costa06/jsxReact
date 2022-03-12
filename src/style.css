@@ -1,0 +1,30 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.title.red {
+     color: red;
+     text-align: center;
+}
+.title.red:after {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 3px;
+    background: black;
+    top: 70px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.imageBody {
+    text-align: center;
+}
+.imageBody img {
+    width: 630px;
+    height: 355px;
+    object-fit: cover;
+}
+.videoBody {
+    text-align: center;
+}
